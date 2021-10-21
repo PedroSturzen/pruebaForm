@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Form.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <div class="contenedor">
+        <h1 class="logo"><span class="nombre-empresa">Prueba</span> Formulario</h1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="info-empresa">
+                <ul class="servicios">
+                <li><i class="fa fa-map-marker"></i> Largada: interior del COMPLEJO DE CABAÑAS SALTO DEL PAVON.</li>
+                <li><i class="far fa-calendar-minus"></i> Fecha: Domingo 31 de octubre.</li>
+                <li><i class="fas fa-clock"></i> Hora de Largada: 9:30 hs.</li>
+                </ul>
+            </div>
+            <div class="contacto">
+                <h3>DATOS</h3>
+                <form class="formulario">
+                <p>
+                    <label>Nombre</label>
+                    <input class="fullWidth" type="text" name="nombre" required>
+                </p>
+                <p>
+                    <label>Apellido</label>
+                    <input class="fullWidth type="text" name="apellido">
+                </p>
+                <p>
+                    <label>Correo</label>
+                    <input class="fullWidth type="email" name="email" required>
+                </p>
+                <p>
+                    <label>Teléfono</label>
+                    <input class="fullWidth type="text" name="teléfono" required>
+                </p>
+<!--                 <p class="full">
+                    <label>Mensaje</label>
+                    <textarea name="mensaje" required></textarea>
+                </p> -->
+                <!-- ? Colores -->
+                <div class=" full titleColor">
+                    <h2>Elegi el color de tu remera</h2>
+                </div>
+
+                <section class="coloresRemeras full">
+                <div class="rojo">
+                    <input id="red" type="radio" name="color" value="red">
+                    <label for="red">Rojo</label>
+                </div>
+                <div class="verde"> 
+                    <input id="verde" type="radio" name="color" value="red">
+                    <label for="verde">Verde</label>
+                </div>
+                <div class="amarillo"> 
+                    <input id="amarillo" type="radio" name="color" value="red">
+                    <label for="amarillo">Amarillo</label>
+                </div>
+                <div class="azul"> 
+                    <input id="azul" type="radio" name="color" value="red">
+                    <label for="azul">azul</label>
+                </div>
+            </section>
+
+            <!-- ? Tipo de carrera -->
+            <div class=" full titleColor">
+                <h2>Tipo de carrera</h2>
+            </div>
+
+            <section class="coloresRemeras full">
+                <div class="4k">
+                    <input id="4k" type="radio" name="distancia" value="4k">
+                    <label class="carrera10k" for="4k">4k</label>
+                </div>
+
+                <div class="10k">
+                    <input id="10k" type="radio" name="distancia" value="10k">
+                    <label class="carrera10k" for="10k">10k</label>
+                </div>
+
+            </section>
+
+                <p class="full">
+                    <button class="boton-enviar">Enviar</button>
+                </p>
+                <p class="full">
+                    <button class="pdfDescarga">Descargar PDF</button>
+                </p>
+                </form>
+            </div>
+            </div>
+        </div>
+
+
+
+
+</body>
+</html>
